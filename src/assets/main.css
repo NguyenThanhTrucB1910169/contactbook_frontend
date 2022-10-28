@@ -8,6 +8,10 @@
   font-weight: normal;
 }
 
+.black-text{
+  color: var(--vt-c-black);
+}
+
 a,
 .green {
   text-decoration: none;
@@ -23,12 +27,13 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
+    /* display: flex; */
+    margin-top: 50px;
     place-items: center;
   }
 
   #app {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
